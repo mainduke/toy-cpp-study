@@ -52,7 +52,9 @@ int main() {
     string str = "  hello world  ";
 
     Solution sol;
-    sol.reverseWords(str);
+    string result = sol.reverseWords(str);
+    
+    cout << "result = \"" << result << "\"" << endl;
 
     return 0;
 }
